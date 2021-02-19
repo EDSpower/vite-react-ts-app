@@ -7,11 +7,6 @@
     "serve": "vite preview",
     "lint": "eslint src/"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo 'husky' && npm run lint"
-    }
-  },
   "dependencies": {
     "antd": "^4.12.3",
     "mobx": "^6.1.7",
