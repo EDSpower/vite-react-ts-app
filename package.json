@@ -4,23 +4,40 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "lint": "eslint src/"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo 'husky' && npm run lint"
+    }
   },
   "dependencies": {
     "antd": "^4.12.3",
     "mobx": "^6.1.7",
     "mobx-react": "^7.1.0",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/react-router-dom": "^5.1.7",
     "@typescript-eslint/eslint-plugin": "^4.15.1",
     "@typescript-eslint/parser": "^4.15.1",
     "@vitejs/plugin-react-refresh": "^1.1.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.3",
     "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.22.0",
+    "husky": "^5.0.9",
+    "prettier": "2.2.1",
     "sass": "^1.32.8",
     "typescript": "^4.1.2",
     "vite": "^2.0.0"
