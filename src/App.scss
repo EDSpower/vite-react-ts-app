@@ -1,0 +1,12 @@
+@import 'antd/dist/antd.css';
+
+.App {
+  .content {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    h3 {
+      margin: 0 10px;
+    }
+  }
+}
