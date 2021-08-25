@@ -16,7 +16,7 @@ module.exports = {
   rules: {
     'max-len': ['error', 150, 2], // 一行的字符不能超过100
 
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': ['error', 'windows'],
     quotes: ['error', 'single'],
     'jsx-quotes': ['error', 'prefer-single'],
     semi: ['error', 'always'],
@@ -61,8 +61,16 @@ module.exports = {
     // jsx > 紧跟着属性
     'react/jsx-closing-bracket-location': [1, 'after-props'],
     // 不区分是否是 无状态组件
-    'import/extensions': ['off', 'always', { js: 'never', ts: 'never', tsx: 'never', vue: 'never' }],
+    'import/extensions': [
+      'off',
+      'always',
+      {
+        js: 'never',
+        ts: 'never',
+        tsx: 'never',
+        vue: 'never',
+      },
+    ],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.tsx'] }],
-
   },
 };

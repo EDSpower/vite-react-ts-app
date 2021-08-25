@@ -1,7 +1,9 @@
 {
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#063521",
-    "titleBar.activeBackground": "#084A2F",
-    "titleBar.activeForeground": "#EEFDF7"
-  }
+  "svg.preview.background": "transparent",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "autoFixOnSave": true
+  },
+
+  "editor.formatOnSave": true
 }
