@@ -9,10 +9,10 @@ import './App.scss';
 
 function App() {
   return (
-    <div className='App'>
+    <div className="App">
       <BrowserRouter>
         <Nav />
-        <div className='content'>
+        <div className="content">
           <Button onClick={globStore.add}>+</Button>
           <h3>
             当前值：

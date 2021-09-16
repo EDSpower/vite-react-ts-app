@@ -18,18 +18,19 @@ module.exports = {
 
     'linebreak-style': ['error', 'windows'],
     quotes: ['error', 'single'],
-    'jsx-quotes': ['error', 'prefer-single'],
+    'jsx-quotes': ['error', 'prefer-double'],
     semi: ['error', 'always'],
     // 禁止缩进错误
     indent: 0,
     // 关闭不允许使用 no-tabs
     'no-tabs': 'off',
-    'no-console': 1,
+    'no-console': 0,
     // 设置不冲突 underscore 库
     'no-underscore-dangle': 0,
     // 箭头函数直接返回的时候不需要 大括号 {}
     'arrow-body-style': [2, 'as-needed'],
-    'no-alert': 'error',
+    'no-alert': 0,
+    'no-plusplus': 0,
 
     // 设置是否可以重新改变参数的值
     'no-param-reassign': 0,

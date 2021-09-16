@@ -4,6 +4,8 @@ import { Route, Switch } from 'react-router-dom';
 const LzPage1 = React.lazy(() => import('../pages/page1'));
 const LzPage2 = React.lazy(() => import('../pages/page2'));
 const LzPage3 = React.lazy(() => import('../pages/page3'));
+const LzPage4 = React.lazy(() => import('../pages/page4'));
+const LzPage5 = React.lazy(() => import('../pages/page5'));
 
 const RouterContainer: React.FC = () => (
   <div className="router-container">
@@ -14,6 +16,12 @@ const RouterContainer: React.FC = () => (
         </Route>
         <Route path="/page3">
           <LzPage3 />
+        </Route>
+        <Route path="/page4">
+          <LzPage4 />
+        </Route>
+        <Route path="/page5">
+          <LzPage5 />
         </Route>
         <Route path="/">
           <LzPage1 />
