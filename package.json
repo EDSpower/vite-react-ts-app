@@ -18,8 +18,10 @@
     ]
   },
   "dependencies": {
+    "@types/lodash": "^4.14.173",
     "@types/pixi.js": "^5.0.0",
     "antd": "^4.12.3",
+    "lodash": "^4.17.21",
     "mobx": "^6.1.7",
     "mobx-react": "^7.1.0",
     "pixi-spine": "^3.0.13",
