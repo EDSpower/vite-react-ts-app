@@ -31,6 +31,7 @@ module.exports = {
     'arrow-body-style': [2, 'as-needed'],
     'no-alert': 0,
     'no-plusplus': 0,
+    'react/jsx-one-expression-per-line': 0,
 
     // 设置是否可以重新改变参数的值
     'no-param-reassign': 0,
@@ -60,7 +61,7 @@ module.exports = {
     'import/no-unresolved': 0,
 
     // jsx > 紧跟着属性
-    'react/jsx-closing-bracket-location': [1, 'after-props'],
+    'react/jsx-closing-bracket-location': [0, 'after-props'],
     // 不区分是否是 无状态组件
     'import/extensions': [
       'off',

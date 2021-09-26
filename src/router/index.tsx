@@ -7,6 +7,7 @@ const LzPage3 = React.lazy(() => import('../pages/page3'));
 const LzPage4 = React.lazy(() => import('../pages/page4'));
 const LzPage5 = React.lazy(() => import('../pages/page5'));
 const LzPage6 = React.lazy(() => import('../pages/page6'));
+const LzPage7 = React.lazy(() => import('../pages/page7'));
 
 const RouterContainer: React.FC = () => (
   <div className="router-container">
@@ -26,6 +27,9 @@ const RouterContainer: React.FC = () => (
         </Route>
         <Route path="/page6">
           <LzPage6 />
+        </Route>
+        <Route path="/page7">
+          <LzPage7 />
         </Route>
         <Route path="/">
           <LzPage1 />

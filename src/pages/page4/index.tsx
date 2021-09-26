@@ -21,8 +21,6 @@ const Page4: React.FC = () => {
       // 画龙
       appRef.current.loader.add('dragon', '/src/static/dragon/dragon.json').load((loader, res) => addDragon(loader, res, containerObj1));
       // gifSprite.pivot.set(gifSprite.width / 2, gifSprite.height / 2);
-
-      appRef.current.ticker.add((delta) => {});
     }
   }, []);
 
@@ -39,7 +37,7 @@ const Page4: React.FC = () => {
   };
 
   const addDragon = (loader: PIXI.Loader, res: PIXI.utils.Dict<PIXI.LoaderResource>, container: PIXI.Container) => {
-    const dragon = new Spine(res.dragon.spineData);
+    const dragon = new Spine((res.dragon.spineData as unknown) as never);
 
     dragon.position.set(300, 300);
 

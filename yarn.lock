@@ -368,6 +368,18 @@
   resolved "https://registry.npm.taobao.org/@ctrl/tinycolor/download/@ctrl/tinycolor-3.4.0.tgz?cache=0&sync_timestamp=1612895880147&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40ctrl%2Ftinycolor%2Fdownload%2F%40ctrl%2Ftinycolor-3.4.0.tgz#c3c5ae543c897caa9c2a68630bed355be5f9990f"
   integrity sha1-w8WuVDyJfKqcKmhjC+01W+X5mQ8=
 
+"@emotion/is-prop-valid@^0.8.2":
+  version "0.8.8"
+  resolved "https://registry.npm.taobao.org/@emotion/is-prop-valid/download/@emotion/is-prop-valid-0.8.8.tgz?cache=0&sync_timestamp=1612610319310&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40emotion%2Fis-prop-valid%2Fdownload%2F%40emotion%2Fis-prop-valid-0.8.8.tgz#db28b1c4368a259b60a97311d6a952d4fd01ac1a"
+  integrity sha1-2yixxDaKJZtgqXMR1qlS1P0BrBo=
+  dependencies:
+    "@emotion/memoize" "0.7.4"
+
+"@emotion/memoize@0.7.4":
+  version "0.7.4"
+  resolved "https://registry.npm.taobao.org/@emotion/memoize/download/@emotion/memoize-0.7.4.tgz?cache=0&sync_timestamp=1615986337535&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40emotion%2Fmemoize%2Fdownload%2F%40emotion%2Fmemoize-0.7.4.tgz#19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
+  integrity sha1-Gb8PWvGRSREcQNmLsM+CEZ9dnus=
+
 "@eslint/eslintrc@^0.3.0":
   version "0.3.0"
   resolved "https://registry.npm.taobao.org/@eslint/eslintrc/download/@eslint/eslintrc-0.3.0.tgz?cache=0&sync_timestamp=1610747269837&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40eslint%2Feslintrc%2Fdownload%2F%40eslint%2Feslintrc-0.3.0.tgz#d736d6963d7003b6514e6324bec9c602ac340318"
@@ -1794,6 +1806,26 @@ flatted@^3.1.0:
   resolved "https://registry.npm.taobao.org/flatted/download/flatted-3.1.1.tgz?cache=0&sync_timestamp=1611061309017&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fflatted%2Fdownload%2Fflatted-3.1.1.tgz#c4b489e80096d9df1dfc97c79871aea7c617c469"
   integrity sha1-xLSJ6ACW2d8d/JfHmHGup8YXxGk=
 
+framer-motion@^4.1.17:
+  version "4.1.17"
+  resolved "https://registry.npmmirror.com/framer-motion/download/framer-motion-4.1.17.tgz#4029469252a62ea599902e5a92b537120cc89721"
+  integrity sha1-QClGklKmLqWZkC5akrU3EgzIlyE=
+  dependencies:
+    framesync "5.3.0"
+    hey-listen "^1.0.8"
+    popmotion "9.3.6"
+    style-value-types "4.1.4"
+    tslib "^2.1.0"
+  optionalDependencies:
+    "@emotion/is-prop-valid" "^0.8.2"
+
+framesync@5.3.0:
+  version "5.3.0"
+  resolved "https://registry.npmmirror.com/framesync/download/framesync-5.3.0.tgz#0ecfc955e8f5a6ddc8fdb0cc024070947e1a0d9b"
+  integrity sha1-Ds/JVej1pt3I/bDMAkBwlH4aDZs=
+  dependencies:
+    tslib "^2.1.0"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/fs.realpath/download/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -1926,6 +1958,11 @@ has@^1.0.3:
   integrity sha1-ci18v8H2qoJB8W3YFOAR4fQeh5Y=
   dependencies:
     function-bind "^1.1.1"
+
+hey-listen@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.npm.taobao.org/hey-listen/download/hey-listen-1.0.8.tgz#8e59561ff724908de1aa924ed6ecc84a56a9aa68"
+  integrity sha1-jllWH/ckkI3hqpJO1uzISlapqmg=
 
 history@^4.9.0:
   version "4.10.1"
@@ -2762,6 +2799,16 @@ please-upgrade-node@^3.2.0:
   integrity sha1-rt3T+ZTJM+StmLmdmlVu+g4v6UI=
   dependencies:
     semver-compare "^1.0.0"
+
+popmotion@9.3.6:
+  version "9.3.6"
+  resolved "https://registry.npmmirror.com/popmotion/download/popmotion-9.3.6.tgz#b5236fa28f242aff3871b9e23721f093133248d1"
+  integrity sha1-tSNvoo8kKv84cbniNyHwkxMySNE=
+  dependencies:
+    framesync "5.3.0"
+    hey-listen "^1.0.8"
+    style-value-types "4.1.4"
+    tslib "^2.1.0"
 
 postcss@^8.2.1:
   version "8.2.6"
@@ -3601,6 +3648,14 @@ strip-json-comments@^3.1.0, strip-json-comments@^3.1.1:
   resolved "https://registry.npm.taobao.org/strip-json-comments/download/strip-json-comments-3.1.1.tgz#31f1281b3832630434831c310c01cccda8cbe006"
   integrity sha1-MfEoGzgyYwQ0gxwxDAHMzajL4AY=
 
+style-value-types@4.1.4:
+  version "4.1.4"
+  resolved "https://registry.npmmirror.com/style-value-types/download/style-value-types-4.1.4.tgz#80f37cb4fb024d6394087403dfb275e8bb627e75"
+  integrity sha1-gPN8tPsCTWOUCHQD37J16LtifnU=
+  dependencies:
+    hey-listen "^1.0.8"
+    tslib "^2.1.0"
+
 supports-color@^5.3.0:
   version "5.5.0"
   resolved "https://registry.npm.taobao.org/supports-color/download/supports-color-5.5.0.tgz?cache=0&sync_timestamp=1611393963969&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsupports-color%2Fdownload%2Fsupports-color-5.5.0.tgz#e2e69a44ac8772f78a1ec0b35b689df6530efc8f"
@@ -3676,6 +3731,11 @@ tslib@^1.8.1, tslib@^1.9.0:
   version "1.14.1"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.14.1.tgz?cache=0&sync_timestamp=1609887539329&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Ftslib%2Fdownload%2Ftslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
   integrity sha1-zy04vcNKE0vK8QkcQfZhni9nLQA=
+
+tslib@^2.1.0:
+  version "2.3.1"
+  resolved "https://registry.nlark.com/tslib/download/tslib-2.3.1.tgz?cache=0&sync_timestamp=1628722556410&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftslib%2Fdownload%2Ftslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
+  integrity sha1-6KM1rdXOrlGqJh0ypJAVjvBC7wE=
 
 tsutils@^3.17.1:
   version "3.20.0"

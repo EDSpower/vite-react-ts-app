@@ -34,6 +34,9 @@ const Nav: React.FC = () => {
       <Menu.Item key="page6" icon={<AppstoreOutlined />}>
         PIXI_TilingSpring
       </Menu.Item>
+      <Menu.Item key="page7" icon={<AppstoreOutlined />}>
+        Motion
+      </Menu.Item>
     </Menu>
   );
 };
