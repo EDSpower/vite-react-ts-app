@@ -1,3 +1,11 @@
+/*
+ * @Author: EDSPower
+ * @Email: 766782971@qq.com
+ * @Date: 2021-08-25 16:33:47
+ * @Description:
+ * @LastEditors: EDSPower
+ * @LastEditTime: 2021-12-25 16:04:06
+ */
 import React, { useState } from 'react';
 import { Menu } from 'antd';
 import { MailOutlined, AppstoreOutlined } from '@ant-design/icons';
@@ -36,6 +44,12 @@ const Nav: React.FC = () => {
       </Menu.Item>
       <Menu.Item key="page7" icon={<AppstoreOutlined />}>
         Motion
+      </Menu.Item>
+      <Menu.Item key="page8" icon={<AppstoreOutlined />}>
+        LazyImg
+      </Menu.Item>
+      <Menu.Item key="page9" icon={<AppstoreOutlined />}>
+        SelfLazyImg
       </Menu.Item>
     </Menu>
   );

@@ -1,3 +1,11 @@
+/*
+ * @Author: EDSPower
+ * @Email: 766782971@qq.com
+ * @Date: 2021-08-25 16:33:47
+ * @Description:
+ * @LastEditors: EDSPower
+ * @LastEditTime: 2021-12-25 16:04:36
+ */
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 
@@ -8,6 +16,8 @@ const LzPage4 = React.lazy(() => import('../pages/page4'));
 const LzPage5 = React.lazy(() => import('../pages/page5'));
 const LzPage6 = React.lazy(() => import('../pages/page6'));
 const LzPage7 = React.lazy(() => import('../pages/page7'));
+const LzPage8 = React.lazy(() => import('../pages/page8'));
+const LzPage9 = React.lazy(() => import('../pages/page9'));
 
 const RouterContainer: React.FC = () => (
   <div className="router-container">
@@ -30,6 +40,12 @@ const RouterContainer: React.FC = () => (
         </Route>
         <Route path="/page7">
           <LzPage7 />
+        </Route>
+        <Route path="/page8">
+          <LzPage8 />
+        </Route>
+        <Route path="/page9">
+          <LzPage9 />
         </Route>
         <Route path="/">
           <LzPage1 />
