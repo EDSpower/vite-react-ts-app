@@ -4,7 +4,7 @@
  * @Date: 2021-08-25 16:33:47
  * @Description:
  * @LastEditors: EDSPower
- * @LastEditTime: 2021-12-25 16:04:06
+ * @LastEditTime: 2022-01-18 13:14:16
  */
 import React, { useState } from 'react';
 import { Menu } from 'antd';
@@ -50,6 +50,9 @@ const Nav: React.FC = () => {
       </Menu.Item>
       <Menu.Item key="page9" icon={<AppstoreOutlined />}>
         SelfLazyImg
+      </Menu.Item>
+      <Menu.Item key="page10" icon={<AppstoreOutlined />}>
+        fabric
       </Menu.Item>
     </Menu>
   );
