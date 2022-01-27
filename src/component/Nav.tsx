@@ -4,7 +4,7 @@
  * @Date: 2021-08-25 16:33:47
  * @Description:
  * @LastEditors: EDSPower
- * @LastEditTime: 2022-01-18 13:14:16
+ * @LastEditTime: 2022-01-27 15:22:59
  */
 import React, { useState } from 'react';
 import { Menu } from 'antd';
@@ -53,6 +53,9 @@ const Nav: React.FC = () => {
       </Menu.Item>
       <Menu.Item key="page10" icon={<AppstoreOutlined />}>
         fabric
+      </Menu.Item>
+      <Menu.Item key="page11" icon={<AppstoreOutlined />}>
+        tranformX
       </Menu.Item>
     </Menu>
   );

@@ -1,0 +1,20 @@
+.page11 {
+  .content_box {
+    width: 600px;
+    height: 200px;
+    background-color: cornsilk;
+    overflow: hidden;
+    .move_wrap {
+      transform: translate3d(0px, 0px, 0px);
+      // transition: 7s all cubic-bezier(0.17, 0.67, 0.66, 0.99);
+      width: max-content;
+      display: flex;
+      align-items: center;
+
+      .move_item {
+        width: 200px;
+        height: 200px;
+      }
+    }
+  }
+}

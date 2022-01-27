@@ -4,7 +4,7 @@
  * @Date: 2021-08-25 16:33:47
  * @Description:
  * @LastEditors: EDSPower
- * @LastEditTime: 2022-01-18 13:13:48
+ * @LastEditTime: 2022-01-27 15:23:27
  */
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
@@ -19,6 +19,7 @@ const LzPage7 = React.lazy(() => import('../pages/page7'));
 const LzPage8 = React.lazy(() => import('../pages/page8'));
 const LzPage9 = React.lazy(() => import('../pages/page9'));
 const LzPage10 = React.lazy(() => import('../pages/page10'));
+const LzPage11 = React.lazy(() => import('../pages/page11'));
 
 const RouterContainer: React.FC = () => (
   <div className="router-container">
@@ -50,6 +51,9 @@ const RouterContainer: React.FC = () => (
         </Route>
         <Route path="/page10">
           <LzPage10 />
+        </Route>
+        <Route path="/page11">
+          <LzPage11 />
         </Route>
         <Route path="/">
           <LzPage1 />
