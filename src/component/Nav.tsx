@@ -4,7 +4,7 @@
  * @Date: 2021-08-25 16:33:47
  * @Description:
  * @LastEditors: EDSPower
- * @LastEditTime: 2022-01-27 15:22:59
+ * @LastEditTime: 2022-02-10 14:39:57
  */
 import React, { useState } from 'react';
 import { Menu } from 'antd';
@@ -56,6 +56,9 @@ const Nav: React.FC = () => {
       </Menu.Item>
       <Menu.Item key="page11" icon={<AppstoreOutlined />}>
         tranformX
+      </Menu.Item>
+      <Menu.Item key="page12" icon={<AppstoreOutlined />}>
+        threejs
       </Menu.Item>
     </Menu>
   );
