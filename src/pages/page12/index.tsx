@@ -5,7 +5,7 @@
  * @Date: 2021-11-19 15:46:00
  * @Description:
  * @LastEditors: EDSPower
- * @LastEditTime: 2022-02-11 13:55:05
+ * @LastEditTime: 2022-06-02 13:56:22
  */
 import React, { useEffect } from 'react';
 import * as THREE from 'three';
@@ -76,7 +76,7 @@ const page12: React.FC = () => {
       undefined,
       (e) => {
         console.error(e);
-      }
+      },
     );
 
     // // 正方体
