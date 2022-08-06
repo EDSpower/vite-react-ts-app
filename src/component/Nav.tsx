@@ -4,7 +4,7 @@
  * @Date: 2021-08-25 16:33:47
  * @Description:
  * @LastEditors: EDSPower
- * @LastEditTime: 2022-06-02 13:56:06
+ * @LastEditTime: 2022-08-06 17:58:59
  */
 import React, { useState } from 'react';
 import { Menu } from 'antd';
@@ -68,6 +68,9 @@ const Nav: React.FC = () => {
       </Menu.Item>
       <Menu.Item key="page15" icon={<AppstoreOutlined />}>
         threejs-obj
+      </Menu.Item>
+      <Menu.Item key="page16" icon={<AppstoreOutlined />}>
+        better-scroll
       </Menu.Item>
     </Menu>
   );

@@ -268,6 +268,39 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
+"@better-scroll/core@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@better-scroll/core/-/core-2.4.2.tgz#e69470012d79923a18034c3e4931720fbb06eae5"
+  integrity sha512-IqVZLnh04YpaEAy9wJDxtFK/stxVQjB9A9Wcr3Uwkj7Av1TtFpin+t/TObl53diNDG5ZJ+vck/OAthphpuugLA==
+  dependencies:
+    "@better-scroll/shared-utils" "^2.4.2"
+
+"@better-scroll/observe-dom@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@better-scroll/observe-dom/-/observe-dom-2.4.2.tgz#cc1e6d82a8f53525c282c9a4bcea5d1be8c21c95"
+  integrity sha512-eeS77CZs+V72dkya10e5ptndBAbhQVcXoYGvfoIihOJgCPqO5MdYTpzRmlbshYCEE5juUMLe82Kx8FSbOejpAw==
+  dependencies:
+    "@better-scroll/core" "^2.4.2"
+
+"@better-scroll/pull-down@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@better-scroll/pull-down/-/pull-down-2.4.2.tgz#6b98b28bd73e9b694b0857a9c73879e70339cb96"
+  integrity sha512-bqMLk33o4oesTXIIOteBKHQgfVKjIVvity39TM/MfzkbY1WDBxD+HFS7ySgoqw7Kl2Wiv/U76Wfqzmm6yDdg7Q==
+  dependencies:
+    "@better-scroll/core" "^2.4.2"
+
+"@better-scroll/pull-up@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@better-scroll/pull-up/-/pull-up-2.4.2.tgz#25357ceef7bac7520930f0631896b63a10f82a6f"
+  integrity sha512-07Cke3oa96lN9/inxJZ0ixh0nBbbqxOi2IKcBGtD6dP+susiMcdhgd/c7zNRjXkwlw0vzTNfXTgExIOEWzLHYg==
+  dependencies:
+    "@better-scroll/core" "^2.4.2"
+
+"@better-scroll/shared-utils@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@better-scroll/shared-utils/-/shared-utils-2.4.2.tgz#1ac5c97495727093a22a8009560795dd5e3c18da"
+  integrity sha512-Gy/Jfbpu+hq0u+PcjkTqyXGqAf+0dexTzEZ5IDXEVwJVLmd3cx8A73oTcAZ8QZgk4wSHvlMjXecSaptkhnNPEw==
+
 "@chevrotain/types@^9.1.0":
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/@chevrotain/types/-/types-9.1.0.tgz#689f2952be5ad9459dae3c8e9209c0f4ec3c5ec4"

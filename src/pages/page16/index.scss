@@ -1,0 +1,19 @@
+.Page16 {
+  margin: 0 auto;
+  width: 375px;
+  height: 667px;
+  border: 1px dashed #aaa;
+  ul {
+    padding: 0;
+    li {
+      background-color: #eee;
+      line-height: 40px;
+      text-align: center;
+      list-style: none;
+      border-bottom: 1px solid #aaa;
+      span {
+        color: red;
+      }
+    }
+  }
+}

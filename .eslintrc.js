@@ -1,3 +1,12 @@
+/*
+ * @Author: EDSPower
+ * @Date: 2021-08-25 16:33:47
+ * @LastEditTime: 2022-08-06 17:56:34
+ * @LastEditors: EDSPower
+ * @Description:
+ * @FilePath: \vite-react-ts-app\.eslintrc.js
+ * 766782971@qq.com
+ */
 module.exports = {
   env: {
     browser: true,
@@ -14,6 +23,7 @@ module.exports = {
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
+    'react/prop-types': 'off',
     'max-len': ['error', 150, 2], // 一行的字符不能超过100
 
     'linebreak-style': ['error', 'windows'],
